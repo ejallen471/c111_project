@@ -1,0 +1,38 @@
+### READ ME ###
+
+Website Link: https://ejallen471.github.io/
+
+To Project Specifically - https://ejallen471.github.io/c111project/
+
+The aim of this project is to find the best model to classify emails as spam or not spam. We look at the following models:
+
+    1. logistic regression
+    2. decision trees
+    3. K-Nearest Neighbours
+    4. Support Vector Machines
+    5. Multi-Layer Perceptron classifer (MLP) - neural network
+        5a. Sklearn Implmentation
+        5b. PyTorch Implementation
+
+The project is composed of several files:
+
+02 - Data Visualisation: 
+    - Intial processing and visualisation of the data
+    - Data was sourced from - https://archive.ics.uci.edu/dataset/94/spambase
+    - Data is saved locally at 02_Data/spambase.data
+    - For more information about the data, see 02_Data/spambase.DOCUMENTATION
+
+03, 04, 05, 06, 07a:
+    - These are individual files for each model, done using sklearn 
+    - In each file there is an overview to how the algorithm works and each metric used to determine how accurate the model is - this has been done for my future reference in using and understanding the algorithms.
+    - metrics used - Learning curve, ROC curve, AUC, MCC and Cohens Kappa
+
+07b - Neural Network - pytorch:
+    - implementation is different to 07a (and discussed in report)
+
+07c - Neural Network - Manual:
+    - Done for fun, not included within the report (not fully working either)
+
+08 - ROC Curves:
+    - Models from 03 to 07b to output a single graph of all roc curves
+
